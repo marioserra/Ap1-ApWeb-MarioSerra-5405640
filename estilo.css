@@ -1,0 +1,121 @@
+/* Início do Estilo da página principal*/
+H1 { text-align: center }
+
+#conteudoEsq {
+	text-align: center;
+	vertical-align:middle;
+	display:table-cell;
+	position:absolute;
+	width:390px;
+	top:50%;
+	left:5px;
+	color:#99f;
+	padding-bottom:20px;
+	border-bottom:3px double #666;
+}
+#colEsq {
+	background:#90EE90;
+}
+#sepEsqcolCentral {
+	margin-left:510px;
+	padding-left:2px;
+	background:#666;
+}
+#colCentral {    
+	background:#22232F;
+	color:#991;
+	padding:2px 10px;
+	text-align:justify;
+	border-bottom:1px solid #666;
+}
+
+.principal{
+	width: 960px;
+	color: #444;
+	margin: 0 auto;
+	font-family:sans-serif;
+}
+
+.menu{
+	background:#125103;
+}
+.menu ul li, 
+.menu ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+.menu ul li{
+	display:inline-block;
+}
+.menu ul li a{
+	display:block;
+	color:#fff;
+	padding:13px 20px;
+}
+/* Fim do Estilo da página principal*/
+
+/* Início do Estilo da página de formulário*/
+form {
+    /* Apenas para centralizar o form na página */
+    margin: 0 auto;
+    width: 400px;
+    /* Para ver as bordas do formulário */
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+}
+
+form div + div {
+    margin-top: 1em;
+}
+label {
+    /*Para ter certeza que todas as labels tem o mesmo tamanho e estão propriamente alinhadas */
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+input, textarea {
+    /* Para certificar-se que todos os campos de texto têm as mesmas configurações de fonte. Por padrão, textareas ter uma fonte monospace*/
+    font: 1em sans-serif;
+
+    /* Para dar o mesmo tamanho a todos os campo de texto */
+    width: 300px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    /* Para harmonizar o look & feel das bordas nos campos de texto*/
+    border: 1px solid #999;
+}
+input:focus, textarea:focus {
+    /* Dar um pouco de destaque nos elementos ativos */
+    border-color: #000;
+}
+textarea {
+    /* Para alinhar corretamente os campos de texto de várias linhas com sua label*/
+    vertical-align: top;
+
+    /* Para dar espaço suficiente para digitar algum texto */
+    height: 5em;
+
+    /* Para permitir aos usuários redimensionarem qualquer textarea verticalmente. Ele não funciona em todos os browsers */
+    resize: vertical;
+}
+.button {
+    /* Para posicionar os botões para a mesma posição dos campos de texto */
+    padding-left: 90px; /* mesmo tamanho que os elementos do tipo label */
+}
+button {
+    /* Esta margem extra representa aproximadamente o mesmo espaço que o espaço entre as labels e os seus campos de texto*/
+    margin-left: .5em;
+}
+
+/* Fim do Estilo da página de formulário*/
+
+/* Início do Estilo da página aboutme*/
+
+#col1 { width: 250px; float: left; height: 300px; }
+#col2 { width: 450px; float: left; height: 300px; }
+#col3 { width: 250px; float: left; height: 300px; }
+
+/* Fim do Estilo da página aboutme*/
